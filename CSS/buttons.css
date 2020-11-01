@@ -1,0 +1,325 @@
+.btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    border: none;
+    padding: .4rem .9rem;
+    margin: 1rem;
+    background-color:rgba(105, 105, 105, 1);
+    color:white;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn:hover {
+    text-decoration: none;
+    background-color: rgba(105, 105, 105, 0.8);
+}
+
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(90, 90, 90, 0.25);
+}
+
+/* blue */
+.btn-blue {
+    background-color: rgba(70, 70, 255, 1);
+}
+.btn-blue:hover {
+    background-color: rgba(50, 50, 255, .7);
+}
+.btn-blue:focus, .btn-blue.focus {
+    box-shadow: 0 0 0 0.2rem rgba(50, 50, 255, 0.25);
+}
+
+/* red */
+.btn-red {
+    background-color: rgba(220, 50, 50, 1);
+}
+.btn-red:hover {
+    background-color: rgba(220, 30, 30, .7);
+}
+.btn-red:focus, .btn-red.focus {
+    box-shadow: 0 0 0 0.2rem rgba(220, 30, 30, 0.25);
+}
+
+/* green */
+.btn-green {
+    background-color: rgba(60, 200, 60, 1);
+}
+.btn-green:hover {
+    background-color: rgba(30, 200, 30, .7);
+}
+.btn-green:focus, .btn-green.focus {
+    box-shadow: 0 0 0 0.2rem rgba(30, 200, 30, 0.25);
+}
+
+/* light */
+.btn-light {
+    background-color:  rgba(240, 240, 240, 1);
+    color: rgba(40, 40, 40, 1);
+}
+.btn-light:hover {
+    background-color: rgba(200, 200, 200, .7);
+}
+.btn-light:focus, .btn-light.focus {
+    box-shadow: 0 0 0 0.2rem rgba(240, 240, 240, .25);
+}
+
+/* dark */
+.btn-dark {
+    background-color:  rgba(40, 40, 40, 1);
+    color: rgba(240, 240, 240, 1);
+}
+.btn-dark:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+.btn-dark:focus, .btn-dark.focus {
+    box-shadow: 0 0 0 0.2rem rgba(40, 40, 40, .25);
+}
+
+/* transparent-light */
+.btn-transparent-light {
+    background-color: transparent;
+    color: rgba(105, 105, 105, 1);
+    border: 1px solid rgba(105, 105, 105, 1);
+}
+.btn-transparent-light:hover {
+    background-color: rgba(105, 105, 105, .15);
+    color: rgba(55, 55, 55, 1);
+}
+.btn-transparent-light:focus, .btn-transparent-light.focus {
+    box-shadow: 0 0 0 0.2rem rgba(105, 105, 105, .25);
+}
+
+/* transparent-blue-light */
+.btn-transparent-blue-light {
+    background-color: transparent;
+    color: rgba(70, 70, 255, 1);
+    border: 1px solid rgba(70, 70, 255, 1);
+}
+.btn-transparent-blue-light:hover {
+    background-color: rgba(70, 70, 255, .15);
+    color: rgba(20, 20, 255, 1);
+}
+.btn-transparent-blue-light:focus, .btn-transparent-blue-light.focus {
+    box-shadow: 0 0 0 0.2rem rgba(70, 70, 255, .25);
+}
+
+/* transparent-red-light */
+.btn-transparent-red-light {
+    background-color: transparent;
+    color: rgba(220, 50, 50, 1);
+    border: 1px solid rgba(220, 50, 50, 1);
+}
+.btn-transparent-red-light:hover {
+    background-color: rgba(220, 50, 50, .15);
+    color: rgba(220, 0, 0, 1);
+}
+.btn-transparent-red-light:focus, .btn-transparent-red-light.focus {
+    box-shadow: 0 0 0 0.2rem rgba(220, 50, 50, .25);
+}
+
+/* transparent-green-light */
+.btn-transparent-green-light {
+    background-color: transparent;
+    color: rgba(60, 200, 60, 1);
+    border: 1px solid rgba(60, 200, 60, 1);
+}
+.btn-transparent-green-light:hover {
+    background-color: rgba(60, 200, 60, .15);
+    color: rgba(0, 150, 13, 1);
+}
+.btn-transparent-green-light:focus, .btn-transparent-green-light.focus {
+    box-shadow: 0 0 0 0.2rem rgba(60, 200, 60, .25);
+}
+
+/* transparent-light-light */
+.btn-transparent-light-light {
+    background-color: transparent;
+    color: rgba(240, 240, 240, 1);
+    border: 1px solid rgba(240, 240, 240, 1);
+}
+.btn-transparent-light-light:hover {
+    background-color: rgba(240, 240, 240, .15);
+    color: rgba(190, 190, 190, 1);
+}
+.btn-transparent-light-light:focus, .btn-transparent-light-light.focus {
+    box-shadow: 0 0 0 0.2rem rgba(240, 240, 240, .25);
+}
+
+/* transparent-dark-light */
+.btn-transparent-dark-light {
+    background-color: transparent;
+    color: rgba(40, 40, 40, 1);
+    border: 1px solid rgba(40, 40, 40, 1);
+}
+.btn-transparent-dark-light:hover {
+    background-color: rgba(40, 40, 40, .15);
+    color: rgba(0, 0, 0, 1);
+}
+.btn-transparent-dark-light:focus, .btn-transparent-dark-light.focus {
+    box-shadow: 0 0 0 0.2rem rgba(40, 40, 40, .25);
+}
+
+/* transparent-dark */
+.btn-transparent-dark {
+    background-color: transparent;
+    color: rgba(105, 105, 105, 1);
+    border: 1px solid rgba(105, 105, 105, 1);
+}
+.btn-transparent-dark:hover {
+    background-color: rgba(105, 105, 105, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.btn-transparent-dark:focus, .btn-transparent-dark.focus {
+    box-shadow: 0 0 0 0.2rem rgba(105, 105, 105, .25);
+}
+
+/* transparent-blue-dark */
+.btn-transparent-blue-dark {
+    background-color: transparent;
+    color: rgba(70, 70, 255, 1);
+    border: 1px solid rgba(70, 70, 255, 1);
+}
+.btn-transparent-blue-dark:hover {
+    background-color: rgba(70, 70, 255, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.btn-transparent-blue-dark:focus, .btn-transparent-blue-dark.focus {
+    box-shadow: 0 0 0 0.2rem rgba(70, 70, 255, .25);
+}
+
+/* transparent-red-dark */
+.btn-transparent-red-dark {
+    background-color: transparent;
+    color: rgba(220, 50, 50, 1);
+    border: 1px solid rgba(220, 50, 50, 1);
+}
+.btn-transparent-red-dark:hover {
+    background-color: rgba(220, 50, 50, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.btn-transparent-red-dark:focus, .btn-transparent-red-dark.focus {
+    box-shadow: 0 0 0 0.2rem rgba(220, 50, 50, .25);
+}
+
+/* transparent-green-dark */
+.btn-transparent-green-dark {
+    background-color: transparent;
+    color: rgba(60, 200, 60, 1);
+    border: 1px solid rgba(60, 200, 60, 1);
+}
+.btn-transparent-green-dark:hover {
+    background-color: rgba(60, 200, 60, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.btn-transparent-green-dark:focus, .btn-transparent-green-dark.focus {
+    box-shadow: 0 0 0 0.2rem rgba(60, 200, 60, .25);
+}
+
+/* transparent-light-dark */
+.btn-transparent-light-dark {
+    background-color: transparent;
+    color: rgba(240, 240, 240, 1);
+    border: 1px solid rgba(240, 240, 240, 1);
+}
+.btn-transparent-light-dark:hover {
+    background-color: rgba(240, 240, 240, 1);
+    color: rgba(40, 40, 40, 1);
+}
+.btn-transparent-light-dark:focus, .btn-transparent-light-dark.focus {
+    box-shadow: 0 0 0 0.2rem rgba(240, 240, 240, .25);
+}
+
+/* transparent-dark-dark */
+.btn-transparent-dark-dark {
+    background-color: transparent;
+    color: rgba(40, 40, 40, 1);
+    border: 1px solid rgba(40, 40, 40, 1);
+}
+.btn-transparent-dark-dark:hover {
+    background-color: rgba(40, 40, 40, 1);
+    color: rgba(240, 240, 240, 1);
+}
+.btn-transparent-dark-dark:focus, .btn-transparent-dark-dark.focus {
+    box-shadow: 0 0 0 0.2rem rgba(40, 40, 40, .25);
+}
+
+/* grad-rainbow */
+.btn-grad-rainbow {
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+}
+.btn-grad-rainbow:hover {
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+    opacity: 0.75;
+}
+
+/* grad-rainbow-90deg */
+.btn-grad-rainbow-90deg {
+    background-image: linear-gradient(90deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+}
+.btn-grad-rainbow-90deg:hover {
+    background-image: linear-gradient(90deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+    opacity: 0.75;
+}
+
+/* grad-radial */
+.btn-grad-radial {
+    background-image: radial-gradient(circle, #e0d4ae 0%, #a38560 100%);
+}
+.btn-grad-radial:hover {
+    background-image: radial-gradient(circle, #e0d4ae 0%, #a38560 100%);
+    opacity: 0.75;
+}
+
+/* grad-radial-inverse */
+.btn-grad-radial-inverse {
+    background-image: radial-gradient(circle, #a38560, #e0d4ae 95%);
+}
+.btn-grad-radial-inverse:hover {
+    background-image: radial-gradient(circle, #a38560, #e0d4ae 95%);
+    opacity: 0.75;
+}
+
+/* shadow-light */
+.btn-shadow-light {
+    background-color: rgba(243, 243, 243, 1);
+    color: #555;
+    box-shadow: .15rem .15rem .1rem rgba(200, 200, 200, .65), -.15rem -.15rem .1rem rgba(255, 255, 255, .65);
+}
+.btn-shadow-light:hover {
+    background-color: rgba(233, 233, 233, 1);
+}
+.btn-shadow-light:focus, .btn-shadow-light.focus {
+    box-shadow: .15rem .15rem .1rem rgba(200, 200, 200, .65), -.15rem -.15rem .1rem rgba(255, 255, 255, .65);
+}
+
+/* shadow-dark */
+.btn-shadow-dark {
+    background-color: rgba(40, 40, 40, 1);
+    color: #f3f3f3;
+    box-shadow: .15rem .15rem .1rem rgba(40, 40, 40, .65), -.15rem -.15rem .1rem rgba(200, 200, 200, .65);
+}
+.btn-shadow-dark:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+.btn-shadow-dark:focus, .btn-shadow-dark.focus {
+    box-shadow: .15rem .15rem .1rem rgba(40, 40, 40, .65), -.15rem -.15rem .1rem rgba(200, 200, 200, .65);
+}
+
+/* shadow-white */
+.btn-shadow-white {
+    background-color: rgba(255, 255, 255, 1);
+    color: #555;
+    box-shadow: .15rem .15rem .1rem rgba(200, 200, 200, .65), -.15rem -.15rem .1rem rgba(255, 255, 255, .65);
+}
+.btn-shadow-white:hover {
+    background-color: rgba(245, 245, 245, 1);
+}
+.btn-shadow-white:focus, .btn-shadow-white.focus {
+    box-shadow: .15rem .15rem .1rem rgba(200, 200, 200, .65), -.15rem -.15rem .1rem rgba(255, 255, 255, .65);
+}

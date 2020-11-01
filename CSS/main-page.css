@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+body {
+    background-color: rgba(243, 243, 243, 1);
+    /* background-color: #fafafa; */
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 5em;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 2em;
+    padding: 5vmin 0 5vmin 0;
+}
+.h2-top {
+    padding: 15vmin 0 5vmin 0;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 33vh 0 14vh 0;
+}
+
+.container-title p {
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+.container-nav {
+    padding: 5vmin 0 5vmin 0;
+}
+
+.container-nav a {
+    margin-left: 3rem;
+}
+
+.container-nav a:first-child {
+    margin-left: 0;
+}
+
+.container-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.code-box {
+    font-family: 'Roboto Mono', monospace;
+    background-color: white;
+    padding: 2rem;
+    border-radius: .5rem;
+    width: 100%;
+    box-shadow: inset .15rem .15rem .1rem rgba(195, 195, 195, 1);
+    letter-spacing: .05rem;
+    font-size: .85em;
+    line-height: 1.5;
+    margin: 5vh 0;
+}
+
+.btn-download {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -.2px;
+    line-height: 1.5;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 1.2rem 2.2rem;
+    margin: 0 0 10vh 0;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-download b{
+    color: #333;
+}
+
+.se {
+    color: blue;
+}
+.sa {
+    color: #0451a5;
+}
+.sv {
+    color: #a31515;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:630px) {
+    .container-main {
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1 {
+        font-size: 4em;
+    }
+    h2 {
+        text-align: center;
+    }
+    .container-title {
+        margin: 15vh 0 15vh 0;
+    }
+    .btn-download {
+        margin: 0;
+    }
+    .container-nav {
+        padding: 0;
+        margin: 15vh 0;
+    }
+    .container-nav a {
+        margin-left: 0;
+        margin-bottom: 1vh;
+        display: block;
+        text-align: center;
+    }
+}
