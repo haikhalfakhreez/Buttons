@@ -1,6 +1,6 @@
 # Buttons!
 
-about.. This project is mostly inspired from [bootstrap](https://getbootstrap.com/docs/4.0/components/buttons/) and other references.
+A collection of different styled buttons. Effects can be applied to links, buttons, etc. CSS code included. This project is mostly inspired from [bootstrap](https://getbootstrap.com/docs/4.0/components/buttons/) and other references.
 
 [See content]()
 
