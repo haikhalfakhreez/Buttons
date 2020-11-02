@@ -12,7 +12,7 @@ The documentation only showed the HTML and CSS for the first item of every categ
 However, you can also modify it on your own.
 
 To apply the style, either:
- - Copy and paste only the style you'd want to use in your own stylesheet. Style name can be found at the official [documentation](https://haikhalfakhreez.github.io/Buttons/). Or:
+ - Copy and paste only the style you'd want to use in your own stylesheet. Style name can be found in the [official documentation](https://haikhalfakhreez.github.io/Buttons/). Or:
  - Reference the stylesheet and add the class name of the style to the element you'd want to apply.
 
 ### MIT License
