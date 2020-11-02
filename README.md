@@ -5,7 +5,7 @@ A collection of different styled buttons. Effects can be applied to links, butto
 [See content](https://haikhalfakhreez.github.io/Buttons/)
 
 ## How to Use
-The documentation only showed the HTML and CSS for the first item of every category. Other items can be found in the buttons.css file which can be [downloaded here](https://github.com/haikhalfakhreez/Buttons). Just search using the codename displayed.
+The documentation only showed the HTML and CSS for the first item of every category. Other items can be found in the ```CSS/buttons.css``` file which can be [downloaded here](https://github.com/haikhalfakhreez/Buttons). Just search using the codename displayed.
 
 ***Highly recommended to use the style you want together with the base class*** ```btn``` ***to make sure the style looks the same as displayed in the documentation.***
 
