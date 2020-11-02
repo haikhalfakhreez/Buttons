@@ -2,7 +2,7 @@
 
 A collection of different styled buttons. Effects can be applied to links, buttons, etc. CSS code included. This project is mostly inspired from [bootstrap](https://getbootstrap.com/docs/4.0/components/buttons/) and other references.
 
-[See content](https://haikhalfakhreez.github.io/Buttons/)
+[See official documentation](https://haikhalfakhreez.github.io/Buttons/)
 
 ## How to Use
 The documentation only showed the HTML and CSS for the first item of every category. Other items can be found in the ```CSS/buttons.css``` file which can be [downloaded here](https://github.com/haikhalfakhreez/Buttons). Just search using the codename displayed.
